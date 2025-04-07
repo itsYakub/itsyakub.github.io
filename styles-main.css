@@ -1,0 +1,21 @@
+.header-left {
+	width:100%;
+	color:white;
+	text-align:left;
+}
+
+.header-right {
+	width:100%;
+	color:white;
+	text-align:right;
+}
+
+.button-footer {
+	text-shadow:0px 2px 0px rgba(0,0,0,25%);
+	color:rgb(30,30,30);
+	transition:0.2s;
+}
+
+img {
+	margin: 10px;
+}
