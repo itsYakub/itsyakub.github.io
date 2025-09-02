@@ -7,29 +7,36 @@ body {
 }
 
 .page-content {
- 	max-width: 800px;
-	padding: 24px;
-	margin: 64px auto 64px auto;
- 	box-shadow: 0px 0px 32px 32px #000000ff;
- 	border-radius: 32px;
+	max-width: 80vw;
+	min-height: 80vh;
+
+	margin: 10vh auto 10vh auto;
+ 	box-shadow: 0px 0px 25px 25px #000000ff;
+ 	border-radius: 25px;
 
 	animation-name: slideFadeIn;
 	animation-duration: 2s;
 }
 
-.header {
+#header {
 	display: flex;
 	justify-content: space-between;
+	padding: 25px;
 }
 
-.footer {
-	display: flex;
+#footer {
+	display: block;
 	justify-content: center;
+	padding: 25px;
 }
 
-.content {
-	text-align: center;
-	font-size: 24px;
+#content {
+	max-width: 100%;
+	overflow: auto;
+
+	padding: 25px;
+	text-align: left;
+	font-size: x-large;
 }
 
 /* SECTION:
@@ -37,10 +44,13 @@ body {
  * */
 
 a:link, a:visited {
-	padding: 8px;
 	font-size: x-large;
 	font-weight: bold;
 	text-decoration: none;
+}
+
+#a-nav {
+	padding: 8px;
 }
 
 h1 {
@@ -48,16 +58,29 @@ h1 {
 	margin: 0px;
 }
 
+hr {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
 /* SECTION:
  *  HTML Class Elements
  * */
 
-.left {
+.div-left {
+	width: 50%;
 	left: 0px;
+	text-align: left;
 }
 
-.right {
+.div-right {
+	width: 50%;
 	right: 0px;
+	text-align: right;
+}
+
+.div-center {
+	text-align: center;
 }
 
 /* SECTION:
