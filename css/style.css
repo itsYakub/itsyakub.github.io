@@ -1,0 +1,76 @@
+/* SECTION:
+ *  Page Content Elements
+ * */
+
+body {
+	font-family: 'Inconsolata'
+}
+
+.page-content {
+ 	max-width: 800px;
+	padding: 24px;
+	margin: 64px auto 64px auto;
+ 	box-shadow: 0px 0px 32px 32px #000000ff;
+ 	border-radius: 32px;
+
+	animation-name: slideFadeIn;
+	animation-duration: 2s;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	text-align: center;
+}
+
+/* SECTION:
+ *  HTML DOM Elements
+ * */
+
+a:link, a:visited {
+	padding: 8px;
+	font-size: x-large;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h1 {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* SECTION:
+ *  HTML Class Elements
+ * */
+
+.left {
+	left: 0px;
+}
+
+.right {
+	right: 0px;
+}
+
+/* SECTION:
+ *  HTML CSS Animations
+ * */
+
+@keyframes slideFadeIn {
+	0% {
+		transform: translateY(10%);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}

@@ -1,0 +1,47 @@
+/* SECTION:
+ *  Background (colorbg)
+ * */
+
+.colorbg-white {
+	background-color: #fafafaff;
+}
+
+.colorbg-lightgray {
+	background-color: #888888ff;
+}
+
+.colorbg-gray {
+	background-color: #444444ff;
+}
+
+.colorbg-darkgray {
+	background-color: #222222ff;
+}
+
+.colorbg-black {
+	background-color: #020202ff;
+}
+
+/* SECTION:
+ *  Color (color)
+ * */
+
+.color-white {
+	color: #fafafaff;
+}
+
+.color-lightgray {
+	color: #888888ff;
+}
+
+.color-gray {
+	color: #444444ff;
+}
+
+.color-darkgray {
+	color: #222222ff;
+}
+
+.color-black {
+	color: #020202ff;
+}
