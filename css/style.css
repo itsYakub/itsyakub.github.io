@@ -2,10 +2,41 @@
  *  Variables
  * */
 
-:root {
-	--text-size: 24px;
-	--padding-size: 24px;
+@media only screen and (min-width: 961px) and (max-width: 1280px) {
+	:root {
+		--text-size: 24px;
+		--padding-size: 24px;
+	}
 }
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+	:root {
+		--text-size: 20px;
+		--padding-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 385) and (max-width: 480px) {
+	:root {
+		--text-size: 16px;
+		--padding-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 384px) {
+	:root {
+		--text-size: 12px;
+		--padding-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 1281px) {
+	:root {
+		--text-size: 32px;
+		--padding-size: 32px;
+	}
+}
+
 
 /* SECTION:
  *  Page Content Elements
@@ -27,7 +58,7 @@ body {
 	position: relative;
 
  	box-shadow: 0px 0px 25px 25px #000000ff;
- 	border-radius: 25px;
+ 	border-radius: var(--text-size);
 
 	animation-name: slideFadeIn;
 	animation-duration: 2s;
@@ -82,7 +113,7 @@ a:link, a:visited {
 }
 
 #a-nav {
-	padding: 8px;
+	padding: 4px;
 }
 
 h1 {
@@ -99,13 +130,13 @@ p {
  * */
 
 .div-left {
-	width: 50%;
+	width: 70%;
 	left: 0px;
 	text-align: left;
 }
 
 .div-right {
-	width: 50%;
+	width: 30%;
 	right: 0px;
 	text-align: right;
 }
