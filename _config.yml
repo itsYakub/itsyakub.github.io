@@ -1,0 +1,11 @@
+url         : "https://itsyakub.github.io"
+
+source      : .
+destination : ./_site
+layouts_dir : ./_layouts
+
+port        : 8000
+host        : 127.0.0.1
+
+sass:
+  sass_dir  : null
