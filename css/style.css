@@ -1,16 +1,31 @@
 /* SECTION:
+ *  Variables
+ * */
+
+:root {
+	--text-size: 24px;
+	--padding-size: 24px;
+}
+
+/* SECTION:
  *  Page Content Elements
  * */
 
 body {
-	font-family: 'Inconsolata'
+	overflow: hidden;
+
+	font-family: 'Inconsolata';
+	font-size: var(--text-size);
 }
 
 .page-content {
-	max-width: 80vw;
-	min-height: 80vh;
+	width: 80vw;
+	height: 80vh;
+	padding: 0px;
+	margin: 10vh auto;
 
-	margin: 10vh auto 10vh auto;
+	position: relative;
+
  	box-shadow: 0px 0px 25px 25px #000000ff;
  	border-radius: 25px;
 
@@ -19,24 +34,42 @@ body {
 }
 
 #header {
+	width: calc(100% - var(--padding-size) * 2);
+	height: var(--text-size);
+	padding: var(--padding-size);
+
+	position: absolute;
+	top: 0px;
+	
 	display: flex;
 	justify-content: space-between;
-	padding: 25px;
 }
 
 #footer {
+	width: calc(100% - var(--padding-size) * 2);
+	height: var(--text-size);
+	padding: var(--padding-size);
+
+	position: absolute;
+	bottom: 0px;
+	
 	display: block;
 	justify-content: center;
-	padding: 25px;
 }
 
 #content {
-	max-width: 100%;
-	overflow: auto;
+	width: calc(100% - var(--padding-size) * 2);
+	padding: 0px var(--padding-size);
 
-	padding: 25px;
+	position: absolute;
+	top: calc(var(--text-size) + var(--padding-size) * 2);
+	bottom: calc(var(--text-size) + var(--padding-size) * 2);
+
+	overflow-x: hidden;
+	overflow-y: auto;
+
 	text-align: left;
-	font-size: x-large;
+	word-wrap: break-word;
 }
 
 /* SECTION:
@@ -44,9 +77,8 @@ body {
  * */
 
 a:link, a:visited {
-	font-size: x-large;
-	font-weight: bold;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 #a-nav {
@@ -58,9 +90,8 @@ h1 {
 	margin: 0px;
 }
 
-hr {
-	margin-left: 25px;
-	margin-right: 25px;
+p {
+	color: #444444ff;
 }
 
 /* SECTION:
