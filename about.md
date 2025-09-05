@@ -9,20 +9,12 @@ I'm a 21-years-old programmer from Poland interested mostly in Low-Level Program
 
 <br>
 
----
-
-<br>
-
 ## Brief history:
 
 My coding adventure started during my high-school days in 2021 where I discovered C++. Then moved to working with games in Unity using C#.
 A few transitions between the engines finally made me stray away from ready solutions in favor of building everything by myself.
 In 2023, after finishing cs50, I've became really used to C and C++, Low-Level and Operating Systems programming.
 From there I started working with OpenGL, software rasterization, kernel manipulations to the point where I am today.
-
-<br>
-
----
 
 <br>
 
@@ -38,16 +30,18 @@ From there I started working with OpenGL, software rasterization, kernel manipul
 
 - <i class="fa-solid fa-graduation-cap"></i>: [@Uniwersytet Vizja / @Akademia Ekonomiczno-Humanistyczna](https://vizja.pl/);
 
+<br>
+
 ### Skills:
 
-- C/C++: ★ ★ ★ ★ ★
+- C/C++: <br> ★ ★ ★ ★ ★
 
-- Python3: ★ ★ ★ ★ ☆
+- Python3: <br> ★ ★ ★ ★ ☆
 
-- x86 Assembly: ★ ★ ★ ☆ ☆
+- x86 Assembly: <br> ★ ★ ★ ☆ ☆
 
-- Debugging (gdb): ★ ★ ★ ★ ☆
+- Debugging (gdb): <br> ★ ★ ★ ★ ☆
 
-- Graphics Programming (OpenGL): ★ ★ ★ ☆ ☆
+- Graphics Programming (OpenGL): <br> ★ ★ ★ ☆ ☆
 
-- GNU/Linux Programming: ★ ★ ★ ☆ ☆
+- GNU/Linux Programming: <br> ★ ★ ★ ☆ ☆
