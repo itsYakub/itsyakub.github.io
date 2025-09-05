@@ -97,10 +97,14 @@ a:link, a:visited {
 	padding: 4px;
 }
 
-h1 {
+h1, h2, h3 {
 	padding: 0px;
 	margin: 0px;
 }
+
+h1 { color: #222222ff; }
+h2 { color: #444444ff; }
+h3 { color: #888888ff; }
 
 p {
 	color: #444444ff;
